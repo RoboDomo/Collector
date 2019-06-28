@@ -1,0 +1,26 @@
+{
+  "name": "collector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:robodomo/collector",
+  "author": "Michael Schwartz <mykesx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "mqtt": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
+    "start": "node ./index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
