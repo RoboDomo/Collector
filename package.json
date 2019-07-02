@@ -6,7 +6,6 @@
   "author": "Michael Schwartz <mykesx@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-register": "^6.26.0",
     "colors": "^1.3.3",
     "debug": "^4.1.1",
     "express": "^4.17.1",
