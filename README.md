@@ -1,8 +1,11 @@
-# Collector
+# collector-microservice
 Data gatherer and reporter for RoboDomo
 
-This nodejs program is both a RESTful API server, and data collector.  It might also be an HTTP server for generating
-plain old HTML pages to view the data.
+** Note** This microservice needs work, so it's going to exit for now.
+
+This nodejs program is both a RESTful API server, and data collector.  
+
+It might also be an HTTP server for generating plain old HTML pages to view the data.
 
 Data is collected by monitoring MQTT and storing observations in the mongodb database.
 

@@ -23,7 +23,16 @@ const express = require("express"),
 
 app.set("port", 4000);
 
+const nop = async () => {
+  setInterval(() => {
+    // do nothing
+  }, 60000);
+};
+
 const main = async () => {
+
+  await nop();
+
   const monitors = [];
   MQTT.connect(async () => {
     const db = new MongoDB("settings");
